@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class NewsEntryComponent {
 
+  
+  
+  title=""
+  author=""
+  description=""
+  publisher=""
+
+
+  addNews=()=>
+  {
+    let add:any=
+    
+      {"title":this.title,"author":this.author,"description":this.description,"publisher":this.publisher}
+    
+    console.log(add)
+    
+  }
+
 }
+

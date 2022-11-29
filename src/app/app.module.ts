@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NewsEntryComponent } from './news-entry/news-entry.component';
 import { NewsViewComponent } from './news-view/news-view.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -31,7 +32,8 @@ const myRoute:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
