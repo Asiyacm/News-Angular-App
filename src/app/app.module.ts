@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewsEntryComponent } from './news-entry/news-entry.component';
 import { NewsViewComponent } from './news-view/news-view.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 
@@ -24,7 +25,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     NewsEntryComponent,
-    NewsViewComponent
+    NewsViewComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
